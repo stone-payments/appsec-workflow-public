@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: to-be-defined
+  name: appsec-workflow-public
+  title: Appsec Workflow Public
+  description: Workflows related to GHAS.
+  annotations:
+    legacy.stone.tech/owner-email: matheus.bovo@stone.com.br
+spec:
+  type: service
+  lifecycle: experimental
+  owner: stone-payments/appsec
