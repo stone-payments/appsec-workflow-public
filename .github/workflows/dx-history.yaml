@@ -10,7 +10,7 @@ on:
 
 jobs:
   call-dx-labeler:
-    uses: stone-payments/github-runner-validator/.github/workflows/dx-labeler.yaml@main
+    uses: stone-payments/github-runner-validator/.github/workflows/dx-labeler.yaml@505a2db0c83bf410384f357c98aa4646a9df1e20 # main
     with:
       pr_number: ${{ inputs.pr_number }}
     secrets: inherit
